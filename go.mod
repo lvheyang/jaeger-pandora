@@ -1,0 +1,50 @@
+module jaeger-pandora
+
+go 1.14
+
+require (
+	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6
+	github.com/avast/retry-go v2.4.3+incompatible
+	github.com/beeker1121/goque v2.0.1+incompatible
+	github.com/davecgh/go-spew v1.1.1
+	github.com/fsnotify/fsnotify v1.4.7
+	github.com/go-ole/go-ole v1.2.4
+	github.com/gogo/googleapis v1.0.1-0.20180501115203-b23578765ee5
+	github.com/gogo/protobuf v1.2.1
+	github.com/golang/protobuf v1.3.2
+	github.com/golang/snappy v0.0.1
+	github.com/hashicorp/go-hclog v0.8.0
+	github.com/hashicorp/go-plugin v1.0.1
+	github.com/hashicorp/hcl v1.0.0
+	github.com/hashicorp/yamux v0.0.0-20181012175058-2f1d1f20f75d
+	github.com/jaegertracing/jaeger v1.14.0
+	github.com/logzio/logzio-go v0.0.0-20190916115104-4cd568a9b6d6
+	github.com/lvheyang/pandora-go v0.0.0-20200323084052-9820c535ce15
+	github.com/magiconair/properties v1.8.1
+	github.com/mailru/easyjson v0.7.0
+	github.com/mitchellh/go-testing-interface v1.0.0
+	github.com/mitchellh/mapstructure v1.1.2
+	github.com/oklog/run v1.0.0
+	github.com/olivere/elastic v6.2.26+incompatible
+	github.com/opentracing/opentracing-go v1.1.0
+	github.com/pelletier/go-toml v1.4.0
+	github.com/pkg/errors v0.8.1
+	github.com/pmezard/go-difflib v1.0.0
+	github.com/spf13/afero v1.2.2
+	github.com/spf13/cast v1.3.0
+	github.com/spf13/jwalterweatherman v1.1.0
+	github.com/spf13/pflag v1.0.3
+	github.com/spf13/viper v1.4.0
+	github.com/stretchr/testify v1.4.0
+	github.com/syndtr/goleveldb v1.0.0
+	github.com/uber/jaeger-lib v2.1.1+incompatible
+	go.uber.org/atomic v1.4.0
+	go.uber.org/multierr v1.1.0
+	go.uber.org/zap v1.10.0
+	golang.org/x/net v0.0.0-20190912160710-24e19bdeb0f2
+	golang.org/x/sys v0.0.0-20190913121621-c3b328c6e5a7
+	golang.org/x/text v0.3.2
+	google.golang.org/genproto v0.0.0-20190911173649-1774047e7e51
+	google.golang.org/grpc v1.21.0
+	gopkg.in/yaml.v2 v2.2.2
+)
